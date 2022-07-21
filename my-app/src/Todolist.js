@@ -20,7 +20,7 @@ export const Todolist = () => {
             <div className='taskboxes'>
                 <div className='new'>
                     <input placeholder="New TODO List"></input>
-                    <button class="btn btn1">Add</button>
+                    <button className="btn btn1">Add</button>
                 </div>
                 <div className='select'>
                     <select onChange={e => onHandleSelectToDo()}>
@@ -30,7 +30,7 @@ export const Todolist = () => {
                 </div>
                 <div className='add'>
                     <input placeholder="Add TODO List Task"></input>
-                    <button class="btn btn3">Add</button>
+                    <button className="btn btn3">Add</button>
                 </div>
             </div>
         </div>
