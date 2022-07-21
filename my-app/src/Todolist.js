@@ -1,15 +1,16 @@
 import {React, useState} from 'react'
 import './Todolist.css'
 
+
 export const Todolist = () => {
+    let [Delete,setDelete] = useState("");
 
     const onHandleSelectToDo = async () => {
     }
 
     const HandleDelete = async () => {
-        let setDelete = useState;
         setDelete(0);
-    }
+     }
     
     return (
 
