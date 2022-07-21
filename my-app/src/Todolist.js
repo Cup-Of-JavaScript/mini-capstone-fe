@@ -8,20 +8,26 @@ export const Todolist = () => {
     }
 
     return (
-        <div className="taskboxes">
-            <div className="new">
-                <input placeholder="New TODO List"></input>
-                <button id="new button">Add</button>
+
+        <div className='main'>
+            <div className='header'>
+                TODO List Application
             </div>
-            <div className="select">
-                <select onChange={e => onHandleSelectToDo()}>
-                    <option>Select TODO List </option>
-                </select>
-                <button id="select button">Delete</button>
-            </div>
-            <div className="add">
-                <input placeholder="Add Task"></input>
-                <button id="add button">Add</button>
+            <div className='taskboxes'>
+                <div className='new'>
+                    <input placeholder="New TODO List"></input>
+                    <button class="btn btn1">Add</button>
+                </div>
+                <div className='select'>
+                    <select onChange={e => onHandleSelectToDo()}>
+                        <option>Select TODO List </option>
+                    </select>
+                    <button class="btn btn2">Delete</button>
+                </div>
+                <div className='add'>
+                    <input placeholder="Add TODO List Task"></input>
+                    <button class="btn btn3">Add</button>
+                </div>
             </div>
         </div>
     )
