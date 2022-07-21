@@ -1,12 +1,16 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Todolist.css'
 
 export const Todolist = () => {
 
     const onHandleSelectToDo = async () => {
-
     }
 
+    const HandleDelete = async () => {
+        let setDelete = useState;
+        setDelete(0);
+    }
+    
     return (
 
         <div className='main'>
@@ -22,7 +26,7 @@ export const Todolist = () => {
                     <select onChange={e => onHandleSelectToDo()}>
                         <option>Select TODO List </option>
                     </select>
-                    <button class="btn btn2">Delete</button>
+                    <button onClick={() => HandleDelete()}>Delete</button>
                 </div>
                 <div className='add'>
                     <input placeholder="Add TODO List Task"></input>
