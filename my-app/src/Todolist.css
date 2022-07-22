@@ -1,0 +1,73 @@
+* {
+    background-color: lightgray;
+  }
+  
+  .header {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background: #304352;
+    color: rgb(43, 39, 56);
+    background: #304352;
+    background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);
+    background: linear-gradient(to bottom, #d7d2cc, #304352);
+  }
+  
+  .main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #304352;
+    text-align: center;
+    padding-bottom: 370px;
+    margin-left: 200px;
+    margin-right: 200px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+  }
+  
+  .taskboxes {
+    padding: 30px;
+    background: #304352;
+    border-color: black;
+  
+  }
+  
+  .new {
+    background: #304352;
+    padding: 10px;
+    border-color: black;
+  }
+  
+  .select {
+    background: #304352;
+    padding: 10px;
+  }
+  
+  .add {
+    background: #304352;
+    padding: 20px;
+  }
+  
+  .btn {
+    border: none;
+    margin: 15px;
+    padding: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #d7d2cc, #304352);
+  }
+  
+  ::placeholder {
+    background-color: #24313b;
+    padding: 22px;
+  }
+  
+  select {
+    color: gray;
+    background-color: #24313b;
+  }
