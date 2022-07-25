@@ -42,10 +42,6 @@ export const Todolist = () => {
                 TODO List Application
             </div>
             <div className='taskboxes'>
-                <div className="new">
-                    <input ref={inputListRef} placeholder="New TODO List"></input>
-                    <button id="new button" onClick={() => onHandleClick()}>Add</button>
-                </div>
                 <div className='select'>
                     <select onChange={() => onHandleSelectToDo()}>
 
@@ -54,7 +50,6 @@ export const Todolist = () => {
                             <option key={i.todo_list_id} value={i.name} placeholder="Select TODO List ">{i.name}</option>
 
                         ))}
-
                     </select>
                     <input type="button" onClick={() => HandleDelete()}value="Delete"></input>
                     <div className='add'>
@@ -64,6 +59,5 @@ export const Todolist = () => {
                 </div>
             </div>
         </div>
-
     )
 }
