@@ -62,6 +62,17 @@
   background-image: linear-gradient(to left, #d7d2cc, #304352);
 }
 
+#new button {
+  border: none;
+  margin: 15px;
+  padding: 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to left, #d7d2cc, #304352);
+}
+
 ::placeholder {
   background-color: #24313b;
   padding: 22px;
